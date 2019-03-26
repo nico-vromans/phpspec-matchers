@@ -1,0 +1,42 @@
+{
+    "name": "phpspec/phpspec-matchers",
+    "description": "Extension for PhpSpec with additional custom Matcher(s).",
+    "type": "phpspec-extension",
+    "homepage": "https://github.com/VromansN/phpspec-matchers",
+    "authors": [
+        {
+            "name": "Nico Vromans",
+            "email": "info@nicovromans.be",
+            "homepage": "http://nicovromans.be",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "phpspec",
+        "extension",
+        "matchers"
+    ],
+    "license": "GNU General Public License v3.0",
+    "require": {
+        "php": ">=7.2",
+        "phpspec/phpspec": "^4.3"
+    },
+    "require-dev": {
+        "leanphp/phpspec-code-coverage": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpSpecMatchers\\": "src/PhpSpecMatchers"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\": "spec"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "vendor/bin/phpspec run",
+        "lint": "vendor/bin/phpcs src/ --standard=PSR2"
+    }
+}
