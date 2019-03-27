@@ -1,5 +1,5 @@
 {
-    "name": "phpspec/phpspec-matchers",
+    "name": "nico-vromans/phpspec-matchers",
     "description": "Extension for PhpSpec with additional custom Matchers.",
     "type": "phpspec-extension",
     "homepage": "https://github.com/VromansN/phpspec-matchers",
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpSpecMatchers\\": "src/PhpSpecMatchers"
+            "NicoVromans\\PhpSpecMatchers\\": "src/"
         }
     },
     "autoload-dev": {

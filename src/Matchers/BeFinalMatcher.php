@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PhpSpecMatchers\Matchers;
+namespace NicoVromans\PhpSpecMatchers\Matchers;
 
 use PhpSpec\Exception\Example\FailureException;
 use PhpSpec\Matcher\BasicMatcher;

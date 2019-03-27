@@ -2,13 +2,13 @@
 ## Installation
 Simply install via Composer: 
 ```
-composer require phpspec/phpspec-matchers
+composer require nico-vromans/phpspec-matchers
 ```
 
 After that, add the extension to you `phpspec.yml`:
 ```yaml
 extensions:
-    PhpSpecMatchers\Extension: ~
+    NicoVromans\PhpSpecMatchers\Extension: ~
 ```
 
 If you also use a code coverage package (for example [leanphp/phpspec-code-coverage](https://packagist.org/packages/leanphp/phpspec-code-coverage)), you might want to exclude this extension to not lower your coverage. Just add the following snippet to the code coverage config in your `phpspec.yml`:

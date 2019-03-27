@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\PhpSpecMatchers;
+namespace spec\NicoVromans\PhpSpecMatchers;
 
+use NicoVromans\PhpSpecMatchers\Extension;
 use PhpSpec\ObjectBehavior;
 use PhpSpec\ServiceContainer;
-use PhpSpecMatchers\Extension;
 use Prophecy\Argument;
 
 class ExtensionSpec extends ObjectBehavior

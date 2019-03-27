@@ -1,0 +1,8 @@
+suites:
+    main:
+        namespace: NicoVromans\PhpSpecMatchers
+        psr4_prefix: NicoVromans\PhpSpecMatchers
+        src_path: src
+        spec_prefix: spec
+
+formatter.name: pretty

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\PhpSpecMatchers\Matchers;
+namespace spec\NicoVromans\PhpSpecMatchers\Matchers;
 
+use NicoVromans\PhpSpecMatchers\Matchers\BeFinalMatcher;
 use PhpSpec\ObjectBehavior;
-use PhpSpecMatchers\Matchers\BeFinalMatcher;
 
 class BeFinalMatcherSpec extends ObjectBehavior
 {
