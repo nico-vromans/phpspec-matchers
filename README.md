@@ -26,5 +26,8 @@ or if a class is not final:
 $this->shouldNotBeFinal();
 ```
 
+## Extra info
+For more info on custom extensions, check out PhpSpec's [Extensions manual](http://www.phpspec.net/en/stable/cookbook/extensions.html). For some more examples look at the [Example extensions](http://www.phpspec.net/en/stable/cookbook/extensions.html#example-extensions) section.
+
 ## License
 GNU General Public License v3.0, check [LICENSE](LICENSE) for more information.
