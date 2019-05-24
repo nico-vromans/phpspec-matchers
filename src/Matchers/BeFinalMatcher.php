@@ -11,7 +11,8 @@ class BeFinalMatcher extends BasicMatcher
 {
     public function supports(string $name, $subject, array $arguments): bool
     {
-        return 'beFinal' === $name;
+        /* @TODO: check if $subject is actually a class (Interfaces and potentially others can't be final) */
+        return 'beFinal' === $name/* && $subject is a class*/;
     }
 
     public function getPriority(): int
@@ -28,11 +29,11 @@ class BeFinalMatcher extends BasicMatcher
 
     protected function getFailureException(string $name, $subject, array $arguments): FailureException
     {
-        return new FailureException('Expected subject to be final, but it is not.');
+        return new FailureException('Expected class to be final, but it is not.');
     }
 
     protected function getNegativeFailureException(string $name, $subject, array $arguments): FailureException
     {
-        return new FailureException('Expected subject to not be final, but it is.');
+        return new FailureException('Expected class to not be final, but it is.');
     }
 }
